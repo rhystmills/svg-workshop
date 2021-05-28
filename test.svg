@@ -17,12 +17,5 @@
             mySvg.appendChild(square);
         })
     ]]></script>
-    <text 
-    x="20" 
-    y="20" 
-    onload="alert('load'); setAttribute('fill', 'fuchsia')"
-    onclick="setAttribute('fill', 'lightgreen')"
-    onmouseout="setAttribute('fill', 'black')"
-    >Load me</text>
     <!-- <rect height="10" width="10"></rect> -->
 </svg>
