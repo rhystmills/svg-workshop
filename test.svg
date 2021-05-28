@@ -11,10 +11,16 @@
     <script type="text/javascript"><![CDATA[
         window.addEventListener('DOMContentLoaded', () => {
             let mySvg = document.getElementById('mySvg');
-            let square = document.createElementNS("http://www.w3.org/2000/svg",'rect');
-            square.setAttribute("height",10);
-            square.setAttribute("width",10);
-            mySvg.appendChild(square);
+            for (let i=0; i<100; i++){
+                for (let j=0; j<100; j++){
+                    let square = document.createElementNS("http://www.w3.org/2000/svg",'rect');
+                    square.setAttribute("height",8);
+                    square.setAttribute("width",8);
+                    square.setAttribute("x",10*i);
+                    square.setAttribute("y",10*j);
+                    mySvg.appendChild(square);
+                }
+            }
         })
     ]]></script>
     <!-- <rect height="10" width="10"></rect> -->
