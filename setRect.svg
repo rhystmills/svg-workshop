@@ -16,7 +16,7 @@
         .round { rx: 5px; fill: green; }
     </style>
     <rect id="me" width="10" height="10">
-        <set attributeName="class" to="round" begin="me.click" dur="2s" />
+        <set attributeName="class" to="round" begin="me.mouseover" dur="2s" />
     </rect>
     <!-- <rect height="10" width="10"></rect> -->
 </svg>
