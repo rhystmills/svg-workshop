@@ -12,7 +12,7 @@
     <foreignObject class="node" x="25" y="25" width="400" height="400">
         <body xmlns="http://www.w3.org/1999/xhtml">
             <h1>Here is the page</h1>
-            <p><a href="https://rhysmills.com">click me</a></p>
+            <p><a href="https://rhysmills.com" onclick="console.log("hello");">click me</a></p>
         </body>
     </foreignObject>
 </svg>
